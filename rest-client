@@ -1,0 +1,13 @@
+GET http://localhost:3000/newusers/nu/nuser
+
+###
+
+POST http://localhost:3000/newusers/nu/nuser
+Content-Type: application/json
+
+{
+  "username": "string",
+  "email": "string",
+  "about": "string",
+  "password": "string"
+}
