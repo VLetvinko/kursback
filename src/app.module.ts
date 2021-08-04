@@ -15,7 +15,7 @@ import { ImageModule } from './image/image.module';
       username: 'postgres',
       password: '1111',
       database: 'kursdb',
-      entities: ['dist/**/*.entity{.ts,.js}'],
+      entities: ['dist/**/*.entity{.ts,.js}'], //[UserEntity]
       synchronize: true,
     }),
     AuthModule,
